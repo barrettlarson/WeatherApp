@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="root">
+      <h1>Weather Dashboard</h1>
+      <div class="card">
+        <div class="search">
+          <textarea id="text" placeholder="Enter the city"></textarea>
+          <button onclick="getData()">Search</button>
+        </div>
+        <div class="data">
+          <div class="left">
+            <div class="picture"></div>
+            <div class="rop"></div>
+          </div>
+          <div class="right"></div>
+        </div>
+        <div class="days">
+          <div class="first"></div>
+          <div class="second"></div>
+          <div class="third"></div>
+          <div class="fourth"></div>
+          <div class="fifth"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
